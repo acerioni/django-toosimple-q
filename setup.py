@@ -16,7 +16,8 @@ def get_version(*file_paths):
 
 setup(
     name="django-toosimple-q",
-    version=get_version("django_toosimple_q", "__init__.py"),
+    # version=get_version("django_toosimple_q", "__init__.py"),
+    version="0.0.0",
     description="""A simplistic task queue and cron-like scheduler for Django""",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
